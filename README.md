@@ -11,34 +11,34 @@ This Python program classifies positive or negative sentiment reviews from IMDb,
 
 The x-axis is the False Positive Rate, and the y-axis is the True Positive Rate in all the graphs. The following graphs are outputted to your screen:
 
-Gaussian Naive Bayes without feature selection (Training Set) ROC
-Gaussian Naive Bayes without feature selection (Validation Set) ROC
-Gaussian Naive Bayes without feature selection (Testing Set) ROC
-KNN-5 without feature selection (Training Set) ROC
-KNN-5 without feature selection (Validation Set) ROC
-KNN-5 without feature selection (Testing Set) ROC
-SVC-scale without feature selection (Training Set) ROC
-SVC-scale without feature selection (Validation Set) ROC
-SVC-scale without feature selection (Testing Set) ROC
-Gaussian Naive Bayes with stop words and top-1000 (Training Set) ROC
-Gaussian Naive Bayes with stop words and top-1000 (Validation Set) ROC
-Gaussian Naive Bayes with stop words and top-1000 (Testing Set) ROC
-KNN-7 with stop words and top-1000 (Training Set) ROC
-KNN-7 with stop words and top-1000 (Validation Set) ROC
-KNN-7 with stop words and top-1000 (Testing Set) ROC
-SVC-scale with stop words and top-1000 (Training Set) ROC
-SVC-scale with stop words and top-1000 (Validation Set) ROC
-SVC-scale with stop words and top-1000 (Testing Set) ROC
+Gaussian Naive Bayes without feature selection (Training Set) ROC<br />
+Gaussian Naive Bayes without feature selection (Validation Set) ROC<br />
+Gaussian Naive Bayes without feature selection (Testing Set) ROC<br />
+KNN-5 without feature selection (Training Set) ROC<br />
+KNN-5 without feature selection (Validation Set) ROC<br />
+KNN-5 without feature selection (Testing Set) ROC<br />
+SVC-scale without feature selection (Training Set) ROC<br />
+SVC-scale without feature selection (Validation Set) ROC<br />
+SVC-scale without feature selection (Testing Set) ROC<br />
+Gaussian Naive Bayes with stop words and top-1000 (Training Set) ROC<br />
+Gaussian Naive Bayes with stop words and top-1000 (Validation Set) ROC<br />
+Gaussian Naive Bayes with stop words and top-1000 (Testing Set) ROC<br />
+KNN-7 with stop words and top-1000 (Training Set) ROC<br />
+KNN-7 with stop words and top-1000 (Validation Set) ROC<br />
+KNN-7 with stop words and top-1000 (Testing Set) ROC<br />
+SVC-scale with stop words and top-1000 (Training Set) ROC<br />
+SVC-scale with stop words and top-1000 (Validation Set) ROC<br />
+SVC-scale with stop words and top-1000 (Testing Set) ROC<br />
 
 The following values are also printed out in your Command Prompt after the graphs:
 
-Accuracy: the number of correct predictions divided by the total number of predictions.
-Precision: the true positive divided by the true positive plus the false positive
-Recall: the true positive divided by true positive plus false negative
-Specificity: calculated as the number of correct negative predictions divided by the total number of negatives
-AUROC is the area under the ROC curve and an estimator of the model's performance.
-Offline efficiency: the time needed to train the model in seconds
-Online efficiency: the time needed to predict the test set in seconds.
+**Accuracy:** the number of correct predictions divided by the total number of predictions.<br />
+**Precision:** the true positive divided by the true positive plus the false positive.<br />
+**Recall:** the true positive divided by true positive plus false negative.<br />
+**Specificity:** calculated as the number of correct negative predictions divided by the total number of negatives.<br />
+**AUROC:** the area under the ROC curve and an estimator of the model's performance.<br />
+**Offline efficiency:** the time needed to train the model in seconds.<br />
+**Online efficiency:** the time needed to predict the test set in seconds.<br />
 
 ## Running The Project In Windows
 
@@ -46,7 +46,7 @@ In the project's root directory, type ```pip install -r requirements.txt``` to y
 
 Type ```python main.py``` to run the project.
 
-## How Does The Program Run
+## How Does The Program Work
 
 The review sentiments are gathered from the GitHub repository https://github.com/microsoft/ML-Server-Python-Samples/tree/master/microsoftml/202/data/sentiment_analysis. The data is first loaded into a Python module and divided into 60% training, 20% test, and 20% validation sets. KNN, GaussianNB, and SVC are used as predictors. 
 
