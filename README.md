@@ -3,9 +3,9 @@ This Python program classifies positive or negative sentiment reviews from IMDb,
 
 ## Input
 
-```data/amazon_cells_labelled.txt```
-```data/imdb_labelled.txt```
-```data/yelp_labelled.txt```
+```data/amazon_cells_labelled.txt```<br />
+```data/imdb_labelled.txt```<br />
+```data/yelp_labelled.txt```<br />
 
 ## Output
 
